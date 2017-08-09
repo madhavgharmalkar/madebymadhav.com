@@ -38,7 +38,7 @@ gulp.task('root', ['clean'], () => {
 })
 
 gulp.task('publish', ['build'], () => {
-    return gulp.src('./dist/**/*')
+    return gulp.src('./build/**/*')
     .pipe(ghPages());
 });
 
