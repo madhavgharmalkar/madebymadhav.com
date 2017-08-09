@@ -1,0 +1,33 @@
+{
+  "name": "kurta.top",
+  "version": "0.0.1",
+  "description": "source code for kurta.top",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madhavgharmalkar/kurta.top.git"
+  },
+  "author": "Madhav Gharmalkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madhavgharmalkar/kurta.top/issues"
+  },
+  "homepage": "https://github.com/madhavgharmalkar/kurta.top#readme",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-rev": "^7.1.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.1.2",
+    "gulp-usemin": "^0.3.28",
+    "gulp-webserver": "^0.9.1"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "skrollr": "^0.6.26"
+  }
+}
