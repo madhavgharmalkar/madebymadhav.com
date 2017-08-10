@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,700);
+@import "../node_modules/sass-mediaqueries/_media-queries.scss";
 
 .signup {
     text-align: center;
@@ -6,8 +7,13 @@
     color: white;
     
     h1 {
-        font-size: 3vw;
+        font-size: 5vw;
         font-weight: 200;
+        
+        @include mq($min-width: 768px) {
+            font-size: 3vw;
+        }
+        
     }
-
+    
 }

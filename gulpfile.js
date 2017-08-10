@@ -17,7 +17,7 @@ gulp.task('build', ['clean', 'img', 'root'], () => {
     return gulp.src('./index.html')
     .pipe(usemin({
         jsAttributes : {
-            async : true
+            defer: [false, true]
         },
         js: [uglify(), rev()],
         js1: [uglify(), rev()],
