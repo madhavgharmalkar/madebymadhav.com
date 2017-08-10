@@ -1,0 +1,53 @@
+html {
+  background: linear-gradient(215deg, #9e86b0, #706a85, #302d3a, #b6a3c9, #c9bed2);
+  background-size: 1000% 1000%;
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite; }
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 10%; }
+  50% {
+    background-position: 100% 91%; }
+  100% {
+    background-position: 0% 10%; } }
+
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 10%; }
+  50% {
+    background-position: 100% 91%; }
+  100% {
+    background-position: 0% 10%; } }
+
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 10%; }
+  50% {
+    background-position: 100% 91%; }
+  100% {
+    background-position: 0% 10%; } }
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center; }
+  body .logo {
+    flex-grow: 0;
+    width: 33vw;
+    margin: 0 auto;
+    margin-bottom: 2vw; }
+    body .logo path {
+      color: white; }
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,700);
+.signup {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: white; }
+  .signup h1 {
+    font-size: .5ev; }

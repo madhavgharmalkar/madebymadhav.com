@@ -1,5 +1,6 @@
 {
  "name": "App",
+ "short_name": "MadeByMadhav",
  "icons": [
   {
    "src": "\/img\/icons\/android-icon-36x36.png",
