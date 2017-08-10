@@ -25,10 +25,12 @@
     "gulp-uglify": "^2.1.2",
     "gulp-usemin": "^0.3.28",
     "gulp-webserver": "^0.9.1",
-    "http2": "^3.3.6"
+    "http2": "^3.3.6",
+    "sass-module-importer": "^1.4.0"
   },
   "dependencies": {
     "jquery": "^3.2.1",
+    "sass-mediaqueries": "^1.6.1",
     "skrollr": "^0.6.26"
   }
 }
