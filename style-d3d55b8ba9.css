@@ -38,9 +38,12 @@ body {
   align-content: center; }
   body .logo {
     flex-grow: 0;
-    width: 33vw;
     margin: 0 auto;
-    margin-bottom: 2vw; }
+    margin-bottom: 2vw;
+    width: 80vw; }
+    @media only screen and (min-width: 768px) {
+      body .logo {
+        width: 50vw; } }
     body .logo path {
       color: white; }
 
@@ -50,4 +53,8 @@ body {
   font-family: 'Raleway', sans-serif;
   color: white; }
   .signup h1 {
-    font-size: .5ev; }
+    font-size: 5vw;
+    font-weight: 200; }
+    @media only screen and (min-width: 768px) {
+      .signup h1 {
+        font-size: 3vw; } }
